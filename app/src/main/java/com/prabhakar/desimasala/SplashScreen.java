@@ -26,3 +26,6 @@ public class SplashScreen extends AppCompatActivity {
         },TIME_GAP);
     }
 }
+/**
+ https://learn.masaischool.com/app/assignment/3769/2836
+ */

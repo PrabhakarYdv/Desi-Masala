@@ -25,7 +25,6 @@ public class AccountActivity extends AppCompatActivity {
     private void initViews() {
         buttonLogin = findViewById(R.id.login_btn);
         buttonRegister = findViewById(R.id.register_btn);
-
         buttonRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

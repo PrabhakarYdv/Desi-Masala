@@ -37,35 +37,50 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/login_userName_entry"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#000000"
+            android:layout_marginTop="5dp"
             android:background="@drawable/form_bg"
-            android:hint="Enter Mobile or Email"
+            android:hint="Enter User Name"
             android:padding="12dp"
+            android:textColor="#000000"
             android:textSize="20dp" />
 
         <EditText
+            android:id="@+id/login_password_entry"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#000000"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/form_bg"
+            android:inputType="textPassword"
             android:hint="Enter Password"
             android:padding="12dp"
+            android:textColor="#000000"
             android:textSize="20dp" />
 
         <Button
+            android:id="@+id/user_login_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
             android:background="@drawable/btn_bg2"
-            android:textColor="#FFFFFF"
-            android:textSize="25dp"
             android:paddingHorizontal="60dp"
-            android:layout_marginTop="25dp"
             android:text="Login"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
 
+        <TextView
+            android:id="@+id/not_account"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Don't have an Account ? Register"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
     </LinearLayout>
 
 
