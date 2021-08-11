@@ -34,7 +34,7 @@ public class VideoViewHolder extends RecyclerView.ViewHolder {
             public void onClick(View v) {
                 Intent share = new Intent(android.content.Intent.ACTION_SEND);
                 share.setType("txt/plain");
-             //   startActivity(Intent.createChooser(share, "Share Product Via"));
+                v.getContext().startActivity(share);
             }
         });
 
